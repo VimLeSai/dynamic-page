@@ -1,0 +1,32 @@
+{
+  "version": "0.1",
+  "language": "en",
+  "words": [
+    "aadhar",
+    "knovator",
+    "roboto",
+    "sitemap",
+    "nextjs",
+    "svgr",
+    "Rajnish",
+    "Katharotiya",
+    "rsuite",
+    "VimLeSai",
+    "Zari",
+    "btn"
+  ],
+  "ignorePaths": [
+    "node_modules/**",
+    ".git/**",
+    ".vscode/**",
+    ".idea/**",
+    ".next/**",
+    "public/fonts/**",
+    "public/images/**",
+    "icons/**",
+    "**.log",
+    "**.lock",
+    "package-lock.json"
+  ],
+  "allowCompoundWords": true
+}
