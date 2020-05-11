@@ -1,23 +1,18 @@
 import React from 'react'
-import logo from './logo.svg'
 import './App.css'
+import { layoutData } from './data'
+import LayoutPrinter from './module/LayoutPrinter/index'
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'>
-          Learn React
-        </a>
-      </header>
+      <h1>Render Here</h1>
+      {/* <LayoutBuilder */}
+      {/*  saveLayout={d => console.log(d)} */}
+      {/*  types={types} */}
+      {/*  maxLevel={2} */}
+      {/* /> */}
+      <LayoutPrinter layout={layoutData} />
     </div>
   )
 }
